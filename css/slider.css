@@ -1,0 +1,60 @@
+/**
+GENERALE STYLE
+Name: Slider
+Author: Zedka
+Version: 0.1beta
+*/
+
+.slider {
+    height: 402px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.slider-img {
+    height: 330px;
+    overflow: hidden;
+}
+
+.slider-img img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -50px;
+}
+
+#slider-left-content {
+    height: 402px;
+    overflow: hidden;
+}
+
+#images {
+    height: 330px;
+    position: relative;
+}
+
+.slider-subtitle {
+    padding: 10px;
+    height: 72px;
+    box-sizing: border-box;
+    background-color: grey;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.slider-right-title:hover {
+    cursor: pointer;
+}
+
+.slider-right-title {
+    height: 134px;
+    color: white;
+    background-color: #004444;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.right-title-active {
+    background-color: #a34900;
+}
